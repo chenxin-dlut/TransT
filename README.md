@@ -94,7 +94,7 @@ For convenience, We provide some python files to test and eval on the correspond
     python pysot_toolkit/eval.py --tracker_path pysot_toolkit/results/ --dataset VOT2019 --num 1 #eval tracker
     ```  
 * You can also use [pytracking](pytracking) to test and evaluate tracker. 
-But we have not carefully tested it, the results might be slightly different with the two methods above due to the slight difference in implementation.
+But we have not carefully tested it, the results might be slightly different with the two methods above due to the slight difference in implementation (pytracking saves results as integers, got-10k toolkit saves the results as decimals).
 
 ## Acknowledgement
 This is a modified version of the python framework [PyTracking](https://github.com/visionml/pytracking) based on **Pytorch**, 
