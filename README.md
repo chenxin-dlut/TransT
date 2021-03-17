@@ -13,7 +13,7 @@ conda activate transt
 ```  
 * Install PyTorch
 ```bash
-conda install -c pytorch pytorch=1.5 torchvision
+conda install -c pytorch pytorch=1.5 torchvision=0.6.1
 ```  
 
 * Install other packages
