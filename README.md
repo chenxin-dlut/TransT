@@ -50,7 +50,7 @@ and put it in the directory set by "network_path" in "pytracking/evaluation/loca
 pytracking/networks.
 
 ## Quick Start
-#### TRAINING
+#### Traning
 * Modify [local.py](ltr/admin/local.py) to set the paths to datasets, results paths etc.
 * Runing the following commands to train the TransT. You can customize some parameters by modifying [transt.py](ltr/train_settings/transt/transt.py)
 ```bash
@@ -64,13 +64,13 @@ python run_training.py transt transt
 Please refer to [got10k_toolkit](/got10k_toolkit) for details.
 For convenience, We provide some python files to test and eval on the corresponding benchmarks. For example [test_got.py](got10k_toolkit/toolkit/test_got.py) and [evaluate_got.py](got10k_toolkit/toolkit/evaluate_got.py). 
 
-    You need to specify the path of the model and dataset in the these files, and run them to evaluation.
+    You need to specify the path of the model and dataset in the these files.
     ```python
     net_path = '/path_to_model' #Absolute path of the model
     dataset_root= '/path_to_datasets' #Absolute path of the datasets
     ```  
 
-    Then run the following commands
+    Then run the following commands.
 
     ```bash
     conda activate TransT
@@ -81,12 +81,12 @@ For convenience, We provide some python files to test and eval on the correspond
 
 * We also integrated [PySOT](https://github.com/STVIR/pysot), You can use it to eval on [VOT2019](http://votchallenge.net). 
     
-    You need to specify the path of the model and dataset in the [test.py](pysot_toolkit/test.py)
+    You need to specify the path of the model and dataset in the [test.py](pysot_toolkit/test.py).
     ```python
     net_path = '/path_to_model' #Absolute path of the model
     dataset_root= '/path_to_datasets' #Absolute path of the datasets
     ```  
-    Then run the following commands
+    Then run the following commands.
     ```bash
     conda activate TransT
     cd TransT
