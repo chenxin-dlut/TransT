@@ -17,4 +17,4 @@ experiment = ExperimentGOT10k(
     result_dir='results',  # where to store tracking results
     report_dir='reports'  # where to store evaluation reports
 )
-experiment.run(tracker, visualize=True)
+experiment.run(tracker, visualize=False)
