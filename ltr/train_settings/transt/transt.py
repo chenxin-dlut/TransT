@@ -11,7 +11,7 @@ from ltr import MultiGPU
 def run(settings):
     # Most common settings are assigned in the settings struct
     settings.device = 'cuda'
-    settings.description = 'TransT with default settings, but additionally using GOT10k for training.'
+    settings.description = 'TransT with default settings.'
     settings.batch_size = 38
     settings.num_workers = 8
     settings.multi_gpu = True
