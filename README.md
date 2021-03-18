@@ -32,8 +32,8 @@ Official implementation of the TransT (CVPR2021) , including training code and t
     <td>TransT-N6</td>
     <td></td>
     <td></td>
-    <td></td>
-    <td></td>
+    <td>72.2</td>
+    <td>37.53</td>
     <td>29.3M</td>
   </tr>
 </table>
@@ -97,26 +97,8 @@ pytracking/networks.
     ```  
 
 #### Evaluation
-* We integrated [GOT-10k Python Toolkit](https://github.com/got-10k/toolkit) to eval on [GOT-10k](http://got-10k.aitestunion.com/), [OTB (2013/2015)](http://cvlab.hanyang.ac.kr/tracker_benchmark/index.html), [VOT (2013~2018)](http://votchallenge.net), [DTB70](https://github.com/flyers/drone-tracking), [TColor128](http://www.dabi.temple.edu/~hbling/data/TColor-128/TColor-128.html), [NfS (30/240 fps)](http://ci2cv.net/nfs/index.html), [UAV (123/20L)](https://ivul.kaust.edu.sa/Pages/pub-benchmark-simulator-uav.aspx), [LaSOT](https://cis.temple.edu/lasot/) and [TrackingNet](https://tracking-net.org/) benchmarks. 
-Please refer to [got10k_toolkit](/got10k_toolkit) for details.
-For convenience, We provide some python files to test and eval on the corresponding benchmarks. For example [test_got.py](got10k_toolkit/toolkit/test_got.py) and [evaluate_got.py](got10k_toolkit/toolkit/evaluate_got.py). 
 
-    You need to specify the path of the model and dataset in the these files.
-    ```python
-    net_path = '/path_to_model' #Absolute path of the model
-    dataset_root= '/path_to_datasets' #Absolute path of the datasets
-    ```  
-
-    Then run the following commands.
-
-    ```bash
-    conda activate TransT
-    cd TransT
-    python got10k_toolkit/toolkit/test_got.py #test tracker
-    python got10k_toolkit/toolkit/evaluate_got.py #eval tracker
-    ```  
-
-* We also integrated [PySOT](https://github.com/STVIR/pysot), You can use it to eval on [VOT2019](http://votchallenge.net). 
+* We integrated [PySOT](https://github.com/STVIR/pysot) for evaluation.
     
     You need to specify the path of the model and dataset in the [test.py](pysot_toolkit/test.py).
     ```python
@@ -127,15 +109,17 @@ For convenience, We provide some python files to test and eval on the correspond
     ```bash
     conda activate TransT
     cd TransT
-    python -u pysot_toolkit/test.py --dataset VOT2019 #test tracker #test tracker
-    python pysot_toolkit/eval.py --tracker_path pysot_toolkit/results/ --dataset VOT2019 --num 1 #eval tracker
+    python -u pysot_toolkit/test.py --dataset <name of dataset> --name 'transt' #test tracker #test tracker
+    python pysot_toolkit/eval.py --tracker_path results/ --dataset <name of dataset> --num 1 --tracker_prefix 'transt' #eval tracker
     ```  
+    The testing results will in the current directory(results/dataset/transt/)
+    
 * You can also use [pytracking](pytracking) to test and evaluate tracker. 
-But we have not carefully tested it, the results might be slightly different with the two methods above due to the slight difference in implementation (pytracking saves results as integers, got-10k toolkit saves the results as decimals).
+The results might be slightly different with [PySOT](https://github.com/STVIR/pysot) due to the slight difference in implementation (pytracking saves results as integers, pysot toolkit saves the results as decimals).
 
 ## Acknowledgement
 This is a modified version of the python framework [PyTracking](https://github.com/visionml/pytracking) based on **Pytorch**, 
-also borrowing from [PySOT](https://github.com/STVIR/pysot) and [GOT-10k Python Toolkit](https://github.com/got-10k/toolkit). 
+also borrowing from [PySOT](https://github.com/STVIR/pysot). 
 We would like to thank their authors for providing great frameworks and toolkits.
 
 ## Contact
