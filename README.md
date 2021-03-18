@@ -33,7 +33,7 @@ Official implementation of the TransT (CVPR2021) , including training code and t
     <td></td>
     <td></td>
     <td>72.2</td>
-    <td>37.53</td>
+    <td>37.5fps</td>
     <td>29.3M</td>
   </tr>
 </table>
