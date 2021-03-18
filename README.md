@@ -1,6 +1,43 @@
 # TransT - Transformer Tracking [CVPR2021]
 Official implementation of the TransT (CVPR2021) , including training code and trained models.
 
+## Results
+
+<table>
+  <tr>
+    <th>Model</th>
+    <th>LaSOT<br>AUC (%)</th>
+    <th>TrackingNet<br>AUC (%)</th>
+    <th>GOT-10k<br>AO (%)</th>
+    <th>Speed<br></th>
+    <th>Params<br></th>
+  </tr>
+  <tr>
+    <td>TransT-N2</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>TransT-N4</td>
+    <td></td>
+    <td></td>
+    <td>72.3</td>
+    <td>47fps</td>
+    <td>23M</td>
+  </tr>
+  <tr>
+    <td>TransT-N6</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
 ## Installation
 This document contains detailed instructions for installing the necessary dependencied for **TransT**. The instructions 
 have been tested on Ubuntu 18.04 system.
