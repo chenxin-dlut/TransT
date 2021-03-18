@@ -16,8 +16,8 @@ Official implementation of the TransT (CVPR2021) , including training code and t
     <td>TransT-N2</td>
     <td></td>
     <td></td>
-    <td></td>
-    <td></td>
+    <td>69.9</td>
+    <td>65.6fps</td>
     <td>16.7M</td>
   </tr>
   <tr>
