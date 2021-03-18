@@ -11,11 +11,10 @@ import time
 
 class Tracker(object):
 
-    def __init__(self, name, net, window_penalty=0.612, penalty_k=0.204, exemplar_size=128, instance_size=256):
+    def __init__(self, name, net, window_penalty=0.49, exemplar_size=128, instance_size=256):
         self.name = name
         self.net = net
         self.window_penalty = window_penalty
-        self.penalty_k = penalty_k
         self.exemplar_size = exemplar_size
         self.instance_size = instance_size
         self.net = self.net
@@ -162,25 +161,8 @@ class Tracker(object):
         score = self._convert_score(outputs['pred_logits'])
         pred_bbox = self._convert_bbox(outputs['pred_boxes'])
 
-        def change(r):
-            return np.maximum(r, 1. / r)
-
-        def sz(w, h):
-            pad = (w + h) * 0.5
-            return np.sqrt((w + pad) * (h + pad))
-
-        # scale penalty
-        s_c = change(sz(pred_bbox[2, :], pred_bbox[3, :]) /
-                     (sz(self.size[0]/s_x, self.size[1]/s_x)))
-
-        # aspect ratio penalty
-        r_c = change((self.size[0]/self.size[1]) /
-                     (pred_bbox[2, :]/pred_bbox[3, :]))
-        penalty = np.exp(-(r_c * s_c - 1) * self.penalty_k)
-        pscore = penalty * score
-
         # window penalty
-        pscore = pscore * (1 - self.window_penalty) + \
+        pscore = score * (1 - self.window_penalty) + \
                  self.window * self.window_penalty
 
         best_idx = np.argmax(pscore)

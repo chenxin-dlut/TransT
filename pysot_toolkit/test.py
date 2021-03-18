@@ -46,7 +46,7 @@ def main():
 
     # create model
     net = NetWithBackbone(net_path=net_path, use_gpu=True)
-    tracker = Tracker(name='transt', net=net, window_penalty=0.503, penalty_k=0.296, exemplar_size=128, instance_size=256)
+    tracker = Tracker(name='transt', net=net, window_penalty=0.49, exemplar_size=128, instance_size=256)
 
     # create dataset
     dataset = DatasetFactory.create_dataset(name=args.dataset,
@@ -114,7 +114,6 @@ def main():
                     cv2.imshow(video.name, img)
                     if cv2.waitKey() & 0xFF == ord('q'):
                         break
-                    img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
             toc /= cv2.getTickFrequency()
             # save results
             video_path = os.path.join('results', args.dataset, model_name,
