@@ -18,7 +18,7 @@ Official implementation of the TransT (CVPR2021) , including training code and t
     <td></td>
     <td></td>
     <td></td>
-    <td></td>
+    <td>16.7M</td>
   </tr>
   <tr>
     <td>TransT-N4</td>
@@ -34,7 +34,7 @@ Official implementation of the TransT (CVPR2021) , including training code and t
     <td></td>
     <td></td>
     <td></td>
-    <td></td>
+    <td>29.3M</td>
   </tr>
 </table>
 
