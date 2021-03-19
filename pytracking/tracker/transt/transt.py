@@ -54,12 +54,12 @@ class TransT(SiameseTracker):
         s_z = math.ceil(math.sqrt(w_z * h_z))
 
         # calculate channle average
-        channel_average = np.mean(image, axis=(0, 1))
+        self.channel_average = np.mean(image, axis=(0, 1))
 
         # get crop
         z_crop = self.get_subwindow(image, self.center_pos,
                                     cfg.TRACK.EXEMPLAR_SIZE,
-                                    s_z, channel_average)
+                                    s_z, self.channel_average)
         z_crop = z_crop.float().mul(1.0 / 255.0).clamp(0.0, 1.0)
         self.mean = [0.485, 0.456, 0.406]
         self.std = [0.229, 0.224, 0.225]
@@ -81,10 +81,9 @@ class TransT(SiameseTracker):
         h_x = self.size[1] + (4 - 1) * ((self.size[0] + self.size[1]) * 0.5)
         s_x = math.ceil(math.sqrt(w_x * h_x))
 
-        channel_average = np.mean(image, axis=(0, 1))
         x_crop = self.get_subwindow(image, self.center_pos,
                                     cfg.TRACK.INSTANCE_SIZE,
-                                    round(s_x), channel_average)
+                                    round(s_x), self.channel_average)
         x_crop = x_crop.float().mul(1.0 / 255.0).clamp(0.0, 1.0)
         x_crop[0] = tvisf.normalize(x_crop[0], self.mean, self.std, self.inplace)
         outputs = self.net.track(x_crop)
