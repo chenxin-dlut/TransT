@@ -103,6 +103,7 @@ def main():
                 if idx == 0:
                     cv2.destroyAllWindows()
                 if args.vis and idx > frame_counter:
+                    img = cv2.cvtColor(img, cv2.COLOR_RGB2BGR)
                     cv2.polylines(img, [np.array(gt_bbox, np.int).reshape((-1, 1, 2))],
                             True, (0, 255, 0), 3)
                     bbox = list(map(int, pred_bbox))
@@ -110,7 +111,6 @@ def main():
                                   (bbox[0]+bbox[2], bbox[1]+bbox[3]), (0, 255, 255), 3)
                     cv2.putText(img, str(idx), (40, 40), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 255), 2)
                     cv2.putText(img, str(lost_number), (40, 80), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2)
-                    img = cv2.cvtColor(img, cv2.COLOR_RGB2BGR)
                     cv2.imshow(video.name, img)
                     if cv2.waitKey() & 0xFF == ord('q'):
                         break
@@ -166,6 +166,7 @@ def main():
                 if idx == 0:
                     cv2.destroyAllWindows()
                 if args.vis and idx > 0:
+                    img = cv2.cvtColor(img, cv2.COLOR_RGB2BGR)
                     gt_bbox = list(map(int, gt_bbox))
                     pred_bbox = list(map(int, pred_bbox))
                     cv2.rectangle(img, (gt_bbox[0], gt_bbox[1]),
