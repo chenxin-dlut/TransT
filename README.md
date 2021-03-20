@@ -126,3 +126,5 @@ We would like to thank their authors for providing great frameworks and toolkits
 
 ## Contact
 * Xin Chen (email:chenxin3131@mail.dlut.edu.cn)
+
+    Feel free to contact me if you have additional questions. 
