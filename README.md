@@ -121,7 +121,7 @@ The results might be slightly different with [PySOT](https://github.com/STVIR/py
 
 ## Acknowledgement
 This is a modified version of the python framework [PyTracking](https://github.com/visionml/pytracking) based on **Pytorch**, 
-also borrowing from [PySOT](https://github.com/STVIR/pysot). 
+also borrowing from [PySOT](https://github.com/STVIR/pysot) and [detr](https://github.com/facebookresearch/detr). 
 We would like to thank their authors for providing great frameworks and toolkits.
 
 ## Contact
