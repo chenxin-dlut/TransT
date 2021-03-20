@@ -1,6 +1,7 @@
 # TransT - Transformer Tracking [CVPR2021]
 Official implementation of the TransT (CVPR2021) , including training code and trained models.
 
+We are revising the paper and will upload it in the next week
 ## Results
 
 <table>
