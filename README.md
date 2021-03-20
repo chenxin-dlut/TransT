@@ -9,6 +9,9 @@ Official implementation of the TransT (CVPR2021) , including training code and t
     <th>LaSOT<br>AUC (%)</th>
     <th>TrackingNet<br>AUC (%)</th>
     <th>GOT-10k<br>AO (%)</th>
+    <th>OTB100<br>AUC (%)</th>
+    <th>NFS<br>AUC (%)</th>
+    <th>UAV123<br>AUC (%)</th>
     <th>Speed<br></th>
     <th>Params<br></th>
   </tr>
@@ -17,6 +20,9 @@ Official implementation of the TransT (CVPR2021) , including training code and t
     <td>64.2</td>
     <td>80.9</td>
     <td>69.9</td>
+    <td>69.3</td>
+    <td>65.4</td>
+    <td></td>
     <td>65.6fps</td>
     <td>16.7M</td>
   </tr>
@@ -25,6 +31,9 @@ Official implementation of the TransT (CVPR2021) , including training code and t
     <td>64.9</td>
     <td>81.4</td>
     <td>72.3</td>
+    <td>69.0</td>
+    <td>65.3</td>
+    <td>68.1</td>
     <td>47.3fps</td>
     <td>23.0M</td>
   </tr>
