@@ -37,7 +37,7 @@ def run(settings):
 
     # Train datasets
     lasot_train = Lasot(settings.env.lasot_dir, split='train')
-    got10k_train = Got10k(settings.env.got10k_dir, split='all')
+    got10k_train = Got10k(settings.env.got10k_dir, split='vottrain')
     trackingnet_train = TrackingNet(settings.env.trackingnet_dir, set_ids=list(range(4)))
     coco_train = MSCOCOSeq(settings.env.coco_dir)
 
