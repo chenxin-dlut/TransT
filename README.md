@@ -23,7 +23,7 @@ We are revising the paper and will upload it in the next week
     <td>69.9</td>
     <td>69.3</td>
     <td>65.4</td>
-    <td></td>
+    <td>66.0</td>
     <td>65.6fps</td>
     <td>16.7M</td>
   </tr>
