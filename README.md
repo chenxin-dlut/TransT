@@ -84,7 +84,7 @@ Open ~/.bashrc, and add the following line to the end. Note to change <path_of_T
     export PYTHONPATH=<path_of_TransT>:$PYTHONPATH
     ```
 * Download the pre-trained networks   
-Download the network for [TransT](https://drive.google.com/file/d/1Pq0sK-9jmbLAVtgB9-dPDc2pipCxYdM5/view?usp=sharing)
+Download the network for [TransT](https://drive.google.com/drive/folders/1GVQV1GoW-ttDJRRqaVAtLUtubtgLhWCE?usp=sharing)
 and put it in the directory set by "network_path" in "pytracking/evaluation/local.py". By default, it is set to 
 pytracking/networks.
 
