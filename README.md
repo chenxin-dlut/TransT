@@ -2,6 +2,12 @@
 Official implementation of the TransT (CVPR2021) , including training code and trained models.
 
 We are revising the paper and will upload it in the next week
+
+![TransT overview figure](pytracking/.figs/Framework.png)
+![ECA and CFA](pytracking/.figs/ECACFA.png)
+
+
+
 ## Results
 
 <table>
