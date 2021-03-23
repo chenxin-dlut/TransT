@@ -36,8 +36,7 @@ class NetWrapper:
 
 
 class NetWithBackbone(NetWrapper):
-    """Wraps a network with a common backbone.
-    Assumes the network have a 'extract_backbone_features(image)' function."""
+    """Wraps a network."""
 
     def __init__(self, net_path, use_gpu=True, initialize=False, **kwargs):
         super().__init__(net_path, use_gpu, initialize, **kwargs)
