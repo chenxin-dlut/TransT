@@ -81,6 +81,7 @@ have been tested on Ubuntu 18.04 system.
     conda install matplotlib pandas tqdm
     pip install opencv-python tb-nightly visdom scikit-image tikzplotlib gdown
     conda install cython scipy
+    sudo apt-get install libturbojpeg
     pip install pycocotools jpeg4py
     pip install wget yacs
     pip install shapely==1.6.4.post2
