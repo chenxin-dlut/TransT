@@ -1,7 +1,22 @@
 # TransT - Transformer Tracking [CVPR2021]
 Official implementation of the TransT (CVPR2021) , including training code and trained models.
 
-We are revising the paper and will upload it in the next week
+## Tracker
+#### TransT ####
+
+[**[Paper]**](https://drive.google.com/file/d/11EX35wQLGHtW41EB9_BGGgkoBiJ19zZd/view?usp=sharing)
+[**[Models]**](https://drive.google.com/drive/folders/1GVQV1GoW-ttDJRRqaVAtLUtubtgLhWCE?usp=sharing)
+
+This work
+presents a attention-based feature fusion network,
+which effectively combines the template and search region
+features using attention. Specifically, the proposed
+method includes an ego-context augment module based on
+self-attention and a cross-feature augment module based on
+cross-attention. We present a Transformer tracking 
+(named TransT) method based on the Siamese-like feature extraction 
+backbone, the designed attention-based fusion mechanism, 
+and the classification and regression head.
 
 ![TransT overview figure](pytracking/.figs/Framework.png)
 ![ECA and CFA](pytracking/.figs/ECACFA.png)
