@@ -4,7 +4,7 @@ Official implementation of the TransT (CVPR2021) , including training code and t
 ## Tracker
 #### TransT ####
 
-[**[Paper]**](https://drive.google.com/file/d/11EX35wQLGHtW41EB9_BGGgkoBiJ19zZd/view?usp=sharing)
+[**[Paper]**](https://arxiv.org/abs/2103.15436)
 [**[Models]**](https://drive.google.com/drive/folders/1GVQV1GoW-ttDJRRqaVAtLUtubtgLhWCE?usp=sharing)
 
 This work
