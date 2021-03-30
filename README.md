@@ -18,6 +18,9 @@ cross-attention. We present a Transformer tracking
 backbone, the designed attention-based fusion mechanism, 
 and the classification and regression head.
 
+TransT is a very simple and efficient tracker, 
+without online update module, using the same model and hyparameter for all
+test sets.
 ![TransT overview figure](pytracking/.figs/Framework.png)
 ![ECA and CFA](pytracking/.figs/ECACFA.png)
 
