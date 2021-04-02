@@ -27,6 +27,7 @@ test sets.
 
 
 ## Results
+For VOT2020, we use [Alpha-Refine](https://github.com/MasterBin-IIAU/AlphaRefine) to generate mask, without any hyparameter-tuning.
 
 <table>
   <tr>
@@ -34,6 +35,7 @@ test sets.
     <th>LaSOT<br>AUC (%)</th>
     <th>TrackingNet<br>AUC (%)</th>
     <th>GOT-10k<br>AO (%)</th>
+    <th>VOT2020<br>EAO (%)</th>
     <th>OTB100<br>AUC (%)</th>
     <th>NFS<br>AUC (%)</th>
     <th>UAV123<br>AUC (%)</th>
@@ -45,6 +47,7 @@ test sets.
     <td>64.2</td>
     <td>80.9</td>
     <td>69.9</td>
+    <td>48.8</td>
     <td>68.1</td>
     <td>65.7</td>
     <td>67.0</td>
@@ -56,6 +59,7 @@ test sets.
     <td>64.9</td>
     <td>81.4</td>
     <td>72.3</td>
+    <td>47.2</td>
     <td>69.4</td>
     <td>65.7</td>
     <td>69.1</td>
