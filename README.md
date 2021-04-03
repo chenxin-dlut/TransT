@@ -5,7 +5,8 @@ Official implementation of the TransT (CVPR2021) , including training code and t
 #### TransT ####
 
 [**[Paper]**](https://arxiv.org/abs/2103.15436)
-[**[Models]**](https://drive.google.com/drive/folders/1GVQV1GoW-ttDJRRqaVAtLUtubtgLhWCE?usp=sharing)
+[**[Models(google)]**](https://drive.google.com/drive/folders/1GVQV1GoW-ttDJRRqaVAtLUtubtgLhWCE?usp=sharing)
+[**[Models(baidu:iiau)]**](https://pan.baidu.com/s/1geI1cIv_AdLUd7qYKWIqzw)
 
 This work
 presents a attention-based feature fusion network,
