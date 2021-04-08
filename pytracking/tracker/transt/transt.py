@@ -121,10 +121,8 @@ class TransT(SiameseTracker):
 
         # smooth bbox
         # no penaty
-        lr = 1
-        # lr = penalty[best_idx] * score[best_idx] * cfg.TRACK.LR
-        width = self.size[0] * (1 - lr) + bbox[2] * lr
-        height = self.size[1] * (1 - lr) + bbox[3] * lr
+        width = bbox[2]
+        height = bbox[3]
 
 
         # clip boundary
