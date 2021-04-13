@@ -131,7 +131,7 @@ pytracking/networks.
 
 #### Evaluation
 
-* We integrated [PySOT](https://github.com/STVIR/pysot) for evaluation.
+* We integrated [PySOT](https://github.com/STVIR/pysot) for evaluation. You can download json files in [PySOT](https://github.com/STVIR/pysot) or [here](https://drive.google.com/file/d/1PItNIOkui0iGCRglgsZPZF1-hkmj7vyv/view?usp=sharing).
     
     You need to specify the path of the model and dataset in the [test.py](pysot_toolkit/test.py).
     ```python
