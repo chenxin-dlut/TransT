@@ -38,6 +38,7 @@ class BaseActor:
             mode (True) - Bool specifying whether in training mode.
         """
         self.net.train(mode)
+        self.objective.train(mode)
 
     def eval(self):
         """ Set network to eval mode"""
