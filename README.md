@@ -150,6 +150,17 @@ pytracking/networks.
 * You can also use [pytracking](pytracking) to test and evaluate tracker. 
 The results might be slightly different with [PySOT](https://github.com/STVIR/pysot) due to the slight difference in implementation (pytracking saves results as integers, pysot toolkit saves the results as decimals).
 
+## Citation
+
+    ```bash
+    @inproceedings{TransT,
+    title={Transformer Tracking},
+    author={Chen, Xin and Yan, Bin and Zhu, Jiawen and Wang, Dong and Yang, Xiaoyun and Lu, Huchuan},
+    booktitle={CVPR},
+    year={2021}
+    }
+    ```  
+
 ## Acknowledgement
 This is a modified version of the python framework [PyTracking](https://github.com/visionml/pytracking) based on **Pytorch**, 
 also borrowing from [PySOT](https://github.com/STVIR/pysot) and [detr](https://github.com/facebookresearch/detr). 
