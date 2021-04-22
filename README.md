@@ -152,14 +152,14 @@ The results might be slightly different with [PySOT](https://github.com/STVIR/py
 
 ## Citation
 
-    ```bash
-    @inproceedings{TransT,
-    title={Transformer Tracking},
-    author={Chen, Xin and Yan, Bin and Zhu, Jiawen and Wang, Dong and Yang, Xiaoyun and Lu, Huchuan},
-    booktitle={CVPR},
-    year={2021}
-    }
-    ```  
+```bash
+@inproceedings{TransT,
+title={Transformer Tracking},
+author={Chen, Xin and Yan, Bin and Zhu, Jiawen and Wang, Dong and Yang, Xiaoyun and Lu, Huchuan},
+booktitle={CVPR},
+year={2021}
+}
+```  
 
 ## Acknowledgement
 This is a modified version of the python framework [PyTracking](https://github.com/visionml/pytracking) based on **Pytorch**, 
