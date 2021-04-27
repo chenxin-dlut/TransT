@@ -29,7 +29,7 @@ test sets.
 
 
 ## Results
-For VOT2020, we use [Alpha-Refine](https://github.com/MasterBin-IIAU/AlphaRefine) to generate mask, without any hyparameter-tuning.
+For VOT2020, we add a mask branch to generate mask, without any hyparameter-tuning. The code of the mask branch will be released soon.
 
 <table>
   <tr>
@@ -49,7 +49,7 @@ For VOT2020, we use [Alpha-Refine](https://github.com/MasterBin-IIAU/AlphaRefine
     <td>64.2</td>
     <td>80.9</td>
     <td>69.9</td>
-    <td>48.8</td>
+    <td>-</td>
     <td>68.1</td>
     <td>65.7</td>
     <td>67.0</td>
@@ -61,7 +61,7 @@ For VOT2020, we use [Alpha-Refine](https://github.com/MasterBin-IIAU/AlphaRefine
     <td>64.9</td>
     <td>81.4</td>
     <td>72.3</td>
-    <td>47.2</td>
+    <td>49.5</td>
     <td>69.4</td>
     <td>65.7</td>
     <td>69.1</td>
