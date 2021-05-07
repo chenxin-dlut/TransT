@@ -36,8 +36,6 @@ args = parser.parse_args()
 
 torch.set_num_threads(1)
 
-
-
 def main():
     # load config
 
