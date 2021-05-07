@@ -18,7 +18,7 @@ from pysot_toolkit.toolkit.datasets import OTBDataset, UAVDataset, LaSOTDataset,
 from pysot_toolkit.toolkit.evaluation import OPEBenchmark, AccuracyRobustnessBenchmark, EAOBenchmark, F1Benchmark
 from pysot_toolkit.toolkit.visualization import draw_success_precision
 import numpy as np
-parser = argparse.ArgumentParser(description='tracking evaluation')
+parser = argparse.ArgumentParser(description='transt evaluation')
 parser.add_argument('--tracker_path', '-p', type=str, default='',
                     help='tracker result path')
 parser.add_argument('--dataset', '-d', type=str, default='LaSOT',
