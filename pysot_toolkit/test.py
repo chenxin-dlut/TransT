@@ -23,7 +23,7 @@ from pysot_toolkit.toolkit.utils.region import vot_overlap, vot_float2str
 from pysot_toolkit.trackers.tracker import Tracker
 from pysot_toolkit.trackers.net_wrappers import NetWithBackbone
 
-parser = argparse.ArgumentParser(description='siamrpn tracking')
+parser = argparse.ArgumentParser(description='transt tracking')
 parser.add_argument('--dataset', type=str,
         help='datasets')
 parser.add_argument('--video', default='', type=str,
