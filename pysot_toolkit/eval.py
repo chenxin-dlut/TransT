@@ -33,7 +33,6 @@ parser.add_argument('--vis', dest='vis', action='store_true')
 parser.set_defaults(show_video_level=False)
 args = parser.parse_args()
 
-
 def main():
 
     tracker_dir = os.path.join(args.tracker_path, args.dataset)
