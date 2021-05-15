@@ -38,6 +38,7 @@ For VOT2020, we add a mask branch to generate mask, without any hyparameter-tuni
     <th>TrackingNet<br>AUC (%)</th>
     <th>GOT-10k<br>AO (%)</th>
     <th>VOT2020<br>EAO (%)</th>
+    <th>TNL2K<br>AUC (%)</th>
     <th>OTB100<br>AUC (%)</th>
     <th>NFS<br>AUC (%)</th>
     <th>UAV123<br>AUC (%)</th>
@@ -50,6 +51,7 @@ For VOT2020, we add a mask branch to generate mask, without any hyparameter-tuni
     <td>80.9</td>
     <td>69.9</td>
     <td>-</td>
+    <td>-</td>
     <td>68.1</td>
     <td>65.7</td>
     <td>67.0</td>
@@ -61,7 +63,8 @@ For VOT2020, we add a mask branch to generate mask, without any hyparameter-tuni
     <td>64.9</td>
     <td>81.4</td>
     <td>72.3</td>
-    <td>49.5</td>
+    <td>49.5</td>    
+    <td>51.0</td>
     <td>69.4</td>
     <td>65.7</td>
     <td>69.1</td>
