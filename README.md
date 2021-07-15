@@ -153,6 +153,13 @@ pytracking/networks.
 * You can also use [pytracking](pytracking) to test and evaluate tracker. 
 The results might be slightly different with [PySOT](https://github.com/STVIR/pysot) due to the slight difference in implementation (pytracking saves results as integers, pysot toolkit saves the results as decimals).
 
+#### Getting Help
+If you meet problem, please try searching our Github issues, if you can't find solutions, feel free to open a new issue.
+* `ImportError: cannot import name region`
+
+Solution: You can just delete `from pysot_toolkit.toolkit.utils.region import vot_overlap, vot_float2str` in [test.py](pysot_toolkit/test.py) if you don't test VOT2019/18/16.
+You can also build `region` by `python setup.py build_ext --inplace` in [pysot_toolkit](pysot_toolkit).
+
 ## Citation
 
 ```
