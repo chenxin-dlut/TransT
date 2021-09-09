@@ -1,1 +1,1 @@
-## The simplest tracking server (OpenCV based)
+## TransT tracker for Video Annotation tool
