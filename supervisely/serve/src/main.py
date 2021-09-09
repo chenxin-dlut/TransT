@@ -36,6 +36,8 @@ def track(api: sly.Api, task_id, context, state, app_logger):
 
 
 def main():
+    sly.logger.info("🟩 Model has been successfully deployed")
+    
     sly.logger.info("Script arguments", extra={
         "context.teamId": g.team_id,
         "context.workspaceId": g.workspace_id
