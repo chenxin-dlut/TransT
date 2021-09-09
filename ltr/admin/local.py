@@ -8,9 +8,6 @@ class EnvironmentSettings:
         self.coco_dir = ''
         self.lvis_dir = ''
         self.sbd_dir = ''
-
-
-
         self.imagenet_dir = ''
         self.imagenetdet_dir = ''
         self.ecssd_dir = ''

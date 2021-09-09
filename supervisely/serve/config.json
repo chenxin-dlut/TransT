@@ -1,0 +1,20 @@
+{
+  "name": "[beta] Serve TransT",
+  "type": "app",
+  "categories": [
+    "tracking",
+    "video"
+  ],
+  "description": "serve and use in videos annotator",
+  "docker_image": "supervisely/trans-t:1.0.0",
+  "main_script": "supervisely/serve/src/main.py",
+
+  "task_location": "application_sessions",
+  "icon": "https://imgur.com/1Lcyx2p.png",
+  "icon_cover": true,
+  "isolate": true,
+  "headless": true,
+  "session_tags": [
+    "sly_video_tracking"
+  ]
+}
