@@ -6,8 +6,8 @@ from dotenv import load_dotenv  # pip install python-dotenv\
 
 logger = sly.logger
 
-load_dotenv("../debug.env")
-load_dotenv("../secret_debug.env", override=True)
+load_dotenv("/root/trans-t/supervisely/serve/debug.env")
+load_dotenv("/root/trans-t/supervisely/serve/secret_debug.env", override=True)
 
 my_app = sly.AppService()
 api = my_app.public_api
@@ -20,7 +20,10 @@ sly.logger.info(f"Root source directory: {root_source_path}")
 sys.path.append(root_source_path)
 
 transt_root_path = str(pathlib.Path(os.path.abspath(sys.argv[0])).parents[3])
-sys.path.append(os.path.join(transt_root_path, 'pysot_toolkit'))
+sys.path.append(transt_root_path)
+
+pysot_toolkit_path = str(pathlib.Path(os.path.join(transt_root_path, 'pysot_toolkit')))
+sys.path.append(pysot_toolkit_path)
 
 team_id = int(os.environ['context.teamId'])
 workspace_id = int(os.environ['context.workspaceId'])
