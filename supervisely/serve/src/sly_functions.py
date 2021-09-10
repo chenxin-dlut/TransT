@@ -72,11 +72,9 @@ def validate_figure(img_height, img_width, figure):
         return figure
 
 
-def calculate_nofity_step(frames_forward):
-    if frames_forward > 40:
-        return 10
-    else:
-        return 5
+def calculate_nofity_step(frames_count):
+    notify_every_percent = 3
+    return int(round(frames_count / notify_every_percent))
 
 
 def convert_sly_geometry_to_lt_wh(sly_geometry):
