@@ -74,7 +74,7 @@ def validate_figure(img_height, img_width, figure):
 
 def calculate_nofity_step(frames_count):
     notify_every_percent = 3
-    return int(round(frames_count / notify_every_percent))
+    return int(round(frames_count / 100 * notify_every_percent))
 
 
 def convert_sly_geometry_to_lt_wh(sly_geometry):
