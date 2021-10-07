@@ -10,7 +10,7 @@
   "main_script": "supervisely/serve/src/main.py",
 
   "task_location": "application_sessions",
-  "icon": "https://imgur.com/1Lcyx2p.png",
+  "icon": "https://imgur.com/a9u0M3Y.png",
   "icon_cover": true,
   "isolate": true,
   "headless": true,
