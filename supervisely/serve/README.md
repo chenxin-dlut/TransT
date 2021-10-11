@@ -42,6 +42,32 @@ After the Feature Fusion Network, the feature maps are fed into the predicted he
 
 ## TransT results
 
-
+<p>State-of-the-art comparison on TrackingNet, LaSOT, and GOT-10k. The best two results are shown in <b>red</b> and <b>blue</b> fonts:</p>
 <img src="https://imgur.com/VhJ0lk8.png" style="width:100%;"/>
+
+<p><b>AUC</b> scores of different attributes on the <b>LaSOT</b> dataset:</p>
 <img src="https://imgur.com/0x7VUpc.png" style="width:100%;"/>
+
+
+
+# Supervisely integration
+
+### `placeholder`
+
+
+# Demo
+
+See how TransT works with Supervisely tools
+
+## People
+
+| <a data-key="sly-embeded-video-link" href="https://youtu.be/fNqMP-C7MA0" data-video-code="fNqMP-C7MA0">     <img src="https://img.youtube.com/vi/fNqMP-C7MA0/0.jpg" alt="SLY_EMBEDED_VIDEO_LINK"  style="max-width:100%;"> </a> | <a data-key="sly-embeded-video-link" href="https://youtu.be/Nv-45hoh4GQ" data-video-code="Nv-45hoh4GQ">     <img src="https://img.youtube.com/vi/Nv-45hoh4GQ/0.jpg" alt="SLY_EMBEDED_VIDEO_LINK"  style="max-width:100%;"> </a> |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| <a data-key="sly-embeded-video-link" href="https://youtu.be/HLlgsf1ClXI" data-video-code="HLlgsf1ClXI">     <img src="https://img.youtube.com/vi/HLlgsf1ClXI/0.jpg" alt="SLY_EMBEDED_VIDEO_LINK"  style="max-width:100%;"> </a> | <a data-key="sly-embeded-video-link" href="https://youtu.be/ZkroK9_OH6Y" data-video-code="ZkroK9_OH6Y">     <img src="https://img.youtube.com/vi/ZkroK9_OH6Y/0.jpg" alt="SLY_EMBEDED_VIDEO_LINK"  style="max-width:100%;"> </a> |
+| <a data-key="sly-embeded-video-link" href="https://youtu.be/zKUCtnQAhKU" data-video-code="zKUCtnQAhKU">     <img src="https://img.youtube.com/vi/zKUCtnQAhKU/0.jpg" alt="SLY_EMBEDED_VIDEO_LINK"  style="max-width:100%;"> </a> | <a data-key="sly-embeded-video-link" href="https://youtu.be/jQW8jipqle8" data-video-code="jQW8jipqle8">     <img src="https://img.youtube.com/vi/jQW8jipqle8/0.jpg" alt="SLY_EMBEDED_VIDEO_LINK"  style="max-width:100%;"> </a> |
+
+
+
+
+
+
