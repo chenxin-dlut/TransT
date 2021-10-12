@@ -13,7 +13,7 @@ very simple and efficient tracker, without online update module, using the same 
 
 <p align="center">
   <a href="#Original-work">Original work</a> •
-  <a href="#Supervisely-integration">Supervisely integration</a> •
+  <a href="#How-to-use">How to use</a> •
   <a href="#Demo">Demo</a> 
 </p>
 
@@ -64,9 +64,17 @@ After the Feature Fusion Network, the feature maps are fed into the predicted he
 
 
 
-# Supervisely integration
+# How to use
 
-### `placeholder`
+## 1. Community edition
+
+
+
+
+## 2. Enterprise edition
+
+
+
 
 
 # Demo
