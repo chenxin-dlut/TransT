@@ -66,19 +66,38 @@ After the Feature Fusion Network, the feature maps are fed into the predicted he
 
 # How to use
 
-## 1. Community edition
+## Community edition
 
 1. Upload video to [supervese.ly](https://supervise.ly/)
 2. Annotate object using `Rectangle Tool`
 3. Select object, choose `TransT object tracking (CVPR2021)` from tracking menu 
 4. Click `track` button
 
+<table>
+  <tr style="width: 100%">
+    <td>
+      <img src="https://imgur.com/4SKQyrD.png" />
+    </td>
+    <td>
+      <img src="https://imgur.com/KWsubjO.png" />
+    </td>
+  </tr>
+  <tr style="width: 100%">
+    <td>
+      <img src="https://imgur.com/uvRFFJU.png" />
+    </td>
+    <td>
+      <img src="https://imgur.com/fvGTEry.png" />
+    </td>
+  </tr>
+</table>
 
-## 2. Agent edition
+
+## Agent edition
 
 1. Add [TransT object tracking (CVPR2021)](https://ecosystem.supervise.ly/apps/supervisely-ecosystem/trans-t/supervisely/serve) from Ecosystem
 2. Run app on agent with `GPU`
-3. Use in `Videos Annotator`
+3. Use in `Videos Annotator` by analogy with <a href="#Community-edition">Community edition</a>  
 
 
 
