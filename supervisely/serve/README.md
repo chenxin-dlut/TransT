@@ -68,7 +68,7 @@ After the Feature Fusion Network, the feature maps are fed into the predicted he
 
 ## 1. Community edition
 
-1. Upload video to [supervese.ly](https://supervise.ly/)
+1. Upload video to [supervese.ly](https://supervise.ly/) project
 2. Annotate object using Rectangle Tool
 3. Select object, choose `TransT object tracking (CVPR2021)` from tracking menu 
 4. Click `track` button
