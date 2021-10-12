@@ -74,12 +74,11 @@ After the Feature Fusion Network, the feature maps are fed into the predicted he
 4. Click `track` button
 
 
-## 2. Enterprise edition
+## 2. Agent edition
 
 1. Add [TransT object tracking (CVPR2021)](https://ecosystem.supervise.ly/apps/supervisely-ecosystem/trans-t/supervisely/serve) from Ecosystem
 2. Run app on agent with `GPU`
-3. `Share` app for all instance 
-4. Use in `Videos Annotator`
+3. Use in `Videos Annotator`
 
 
 
