@@ -64,12 +64,12 @@ See how TransT works with Supervisely tools
 
 <table>
   <tr style="width: 100%">
-    <th>
+    <td>
       <a data-key="sly-embeded-video-link" href="https://youtu.be/fNqMP-C7MA0" data-video-code="fNqMP-C7MA0">     <img src="https://imgur.com/EjbHbX0.jpg" alt="SLY_EMBEDED_VIDEO_LINK"  style="width:100%;"> </a>
-    </th>
-    <th>
+    </td>
+    <td>
       <a data-key="sly-embeded-video-link" href="https://youtu.be/Nv-45hoh4GQ" data-video-code="Nv-45hoh4GQ">     <img src="https://imgur.com/iPajKlb.jpg" alt="SLY_EMBEDED_VIDEO_LINK"  style="max-width:100%;"> </a> 
-    </th>
+    </td>
   </tr>
   <tr>
     <td>
