@@ -31,7 +31,7 @@ very simple and efficient tracker, without online update module, using the same 
 
 # Original work
 
-Original work available by links: [**paper (CVPR2021)**](https://arxiv.org/abs/2103.15436) and [**code**](https://github.com/chenxin-dlut/TransT).
+Original work available by hyperlinks: [**paper (CVPR2021)**](https://arxiv.org/abs/2103.15436) and [**code**](https://github.com/chenxin-dlut/TransT).
 
 
 ## TransT architecture
