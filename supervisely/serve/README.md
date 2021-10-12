@@ -1,12 +1,31 @@
-# Overview
+<div align="center" markdown>
+  
+# TransT object tracking (CVPR2021)
 
-_TransT is a very simple and efficient tracker, without online update module, using the same model and hyparameter for all test sets._
+very simple and efficient tracker, without online update module, using the same model and hyparameter for all test sets
 
+---
 
 <p float="left">
   <img src="https://github.com/supervisely-ecosystem/trans-t/blob/main/supervisely/demo/demo1.gif?raw=true" style="width:49%;"/>
   <img src="https://github.com/supervisely-ecosystem/trans-t/blob/main/supervisely/demo/demo2.gif?raw=true" style="width:49%;"/>
 </p>
+
+<p align="center">
+  <a href="#Original-work">Original work</a> •
+  <a href="#Supervisely-integration">Supervisely integration</a> •
+  <a href="#Demo">Demo</a> 
+</p>
+
+[![](https://img.shields.io/badge/supervisely-ecosystem-brightgreen)](https://ecosystem.supervise.ly/apps/supervisely-ecosystem/trans-t/supervisely/serve)
+[![](https://img.shields.io/badge/slack-chat-green.svg?logo=slack)](https://supervise.ly/slack)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/supervisely-ecosystem/trans-t)
+[![views](https://app.supervise.ly/public/api/v3/ecosystem.counters?repo=supervisely-ecosystem/trans-t/supervisely/serve&counter=views&label=views)](https://supervise.ly)
+[![used by teams](https://app.supervise.ly/public/api/v3/ecosystem.counters?repo=supervisely-ecosystem/trans-t/supervisely/serve&counter=downloads&label=used%20by%20teams)](https://supervise.ly)
+[![runs](https://app.supervise.ly/public/api/v3/ecosystem.counters?repo=supervisely-ecosystem/trans-t/supervisely/serve&counter=runs&label=runs&123)](https://supervise.ly)
+
+</div>
+
 
 
 
