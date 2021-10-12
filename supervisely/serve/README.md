@@ -31,12 +31,7 @@ very simple and efficient tracker, without online update module, using the same 
 
 # Original work
 
-[**[Paper]**](https://arxiv.org/abs/2103.15436)
-[**[Models(google)]**](https://drive.google.com/drive/folders/1GVQV1GoW-ttDJRRqaVAtLUtubtgLhWCE?usp=sharing)
-[**[Models(baidu:iiau)]**](https://pan.baidu.com/s/1geI1cIv_AdLUd7qYKWIqzw)
-[**[Raw Results]**](https://drive.google.com/file/d/1FSUh6NSzu8H2HzectIwCbDEKZo8ZKUro/view?usp=sharing)
-
-We used as a basis the implementation of the TransT tracker from https://github.com/chenxin-dlut/TransT  
+Original work available by links: [**paper (CVPR2021)**](https://arxiv.org/abs/2103.15436) and [**code**](https://github.com/chenxin-dlut/TransT).
 
 
 ## TransT architecture
@@ -76,7 +71,14 @@ After the Feature Fusion Network, the feature maps are fed into the predicted he
 
 # Demo
 
-See how TransT works with Supervisely tools
+We have prepared a videos and demonstrated how TransT works on the following domains:
+
+* <a href="#People">People</a>  
+* <a href="#Automobiles">Automobiles</a>  
+* <a href="#Animals">Animals</a> 
+* <a href="#Things">Things</a> 
+* <a href="#Conveyor">Conveyor</a> 
+
 
 ## People
 
