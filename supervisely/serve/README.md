@@ -63,28 +63,28 @@ See how TransT works with Supervisely tools
 
 
 <table>
-  <tr>
+  <tr style="width: 100%">
     <th>
-      <a data-key="sly-embeded-video-link" href="https://youtu.be/fNqMP-C7MA0" data-video-code="fNqMP-C7MA0">     <img src="https://img.youtube.com/vi/fNqMP-C7MA0/0.jpg" alt="SLY_EMBEDED_VIDEO_LINK"  style="max-width:100%;"> </a>
+      <a data-key="sly-embeded-video-link" href="https://youtu.be/fNqMP-C7MA0" data-video-code="fNqMP-C7MA0">     <img src="https://imgur.com/EjbHbX0.jpg" alt="SLY_EMBEDED_VIDEO_LINK"  style="width:100%;"> </a>
     </th>
     <th>
-      <a data-key="sly-embeded-video-link" href="https://youtu.be/Nv-45hoh4GQ" data-video-code="Nv-45hoh4GQ">     <img src="https://img.youtube.com/vi/Nv-45hoh4GQ/0.jpg" alt="SLY_EMBEDED_VIDEO_LINK"  style="max-width:100%;"> </a> 
+      <a data-key="sly-embeded-video-link" href="https://youtu.be/Nv-45hoh4GQ" data-video-code="Nv-45hoh4GQ">     <img src="https://imgur.com/iPajKlb.jpg" alt="SLY_EMBEDED_VIDEO_LINK"  style="max-width:100%;"> </a> 
     </th>
   </tr>
   <tr>
     <td>
-      <a data-key="sly-embeded-video-link" href="https://youtu.be/HLlgsf1ClXI" data-video-code="HLlgsf1ClXI">     <img src="https://img.youtube.com/vi/HLlgsf1ClXI/0.jpg" alt="SLY_EMBEDED_VIDEO_LINK"  style="max-width:100%;"> </a> 
+      <a data-key="sly-embeded-video-link" href="https://youtu.be/HLlgsf1ClXI" data-video-code="HLlgsf1ClXI">     <img src="https://imgur.com/6B3l6Dp.jpg" alt="SLY_EMBEDED_VIDEO_LINK"  style="max-width:100%;"> </a> 
     </td>
     <td>
-      <a data-key="sly-embeded-video-link" href="https://youtu.be/ZkroK9_OH6Y" data-video-code="ZkroK9_OH6Y">     <img src="https://img.youtube.com/vi/ZkroK9_OH6Y/0.jpg" alt="SLY_EMBEDED_VIDEO_LINK"  style="max-width:100%;"> </a> 
+      <a data-key="sly-embeded-video-link" href="https://youtu.be/ZkroK9_OH6Y" data-video-code="ZkroK9_OH6Y">     <img src="https://imgur.com/7i290SG.jpg" alt="SLY_EMBEDED_VIDEO_LINK"  style="max-width:100%;"> </a> 
     </td>
   </tr>
   <tr>
     <td>
-      <a data-key="sly-embeded-video-link" href="https://youtu.be/zKUCtnQAhKU" data-video-code="zKUCtnQAhKU">     <img src="https://img.youtube.com/vi/zKUCtnQAhKU/0.jpg" alt="SLY_EMBEDED_VIDEO_LINK"  style="max-width:100%;"> </a>
+      <a data-key="sly-embeded-video-link" href="https://youtu.be/zKUCtnQAhKU" data-video-code="zKUCtnQAhKU">     <img src="https://imgur.com/0lE1Kmx.jpg" alt="SLY_EMBEDED_VIDEO_LINK"  style="max-width:100%;"> </a>
     </td>
     <td>
-      <a data-key="sly-embeded-video-link" href="https://youtu.be/jQW8jipqle8" data-video-code="jQW8jipqle8">     <img src="https://img.youtube.com/vi/jQW8jipqle8/0.jpg" alt="SLY_EMBEDED_VIDEO_LINK"  style="max-width:100%;"> </a>
+      <a data-key="sly-embeded-video-link" href="https://youtu.be/jQW8jipqle8" data-video-code="jQW8jipqle8">     <img src="https://imgur.com/wbX5cl2.jpg" alt="SLY_EMBEDED_VIDEO_LINK"  style="max-width:100%;"> </a>
     </td>
   </tr>
 </table>
