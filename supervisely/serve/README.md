@@ -2,7 +2,7 @@
   
 # TransT object tracking (CVPR2021)
 
-very simple and efficient tracker, without online update module, using the same model and hyparameter for all test sets
+state-of-the art interactive object tracking (CVPR2021) integrated into Supervisely Videos Labeling tool
 
 ---
 
