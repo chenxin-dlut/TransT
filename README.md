@@ -1,6 +1,9 @@
 # TransT - Transformer Tracking [CVPR2021]
 Official implementation of the TransT (CVPR2021) , including training code and trained models.
 
+## News
+- :trophy: **TransT-M wins VOT2021 Real-Time Challenge with EAOMultistart 0.550! The code will be released soon** 
+
 ## Tracker
 #### TransT ####
 
