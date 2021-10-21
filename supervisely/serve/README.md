@@ -91,7 +91,7 @@ After the Feature Fusion Network, the feature maps are fed into the predicted he
 
 4. The model has been successfully deployed
 
-<img src="https://imgur.com/KH0dMUB.png" width="100%"/>  
+<img src="https://imgur.com/iXiK6xb.png" width="100%"/>  
 
 5. Use in `Videos Annotator` 
 
