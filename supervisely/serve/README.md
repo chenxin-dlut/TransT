@@ -13,7 +13,9 @@ state-of-the art interactive object tracking (CVPR2021) integrated into Supervis
 
 <p align="center">
   <a href="#Original-work">Original work</a> •
+    <a href="#How-to-run">How to run</a> •
   <a href="#How-to-use">How to use</a> •
+    <a href="#Controls">Controls</a> •
   <a href="#Demo">Demo</a> 
 </p>
 
@@ -64,40 +66,37 @@ After the Feature Fusion Network, the feature maps are fed into the predicted he
 
 
 
-# How to use
-
-## Community edition
-
-1. Upload video to [supervese.ly](https://supervise.ly/)
-2. Annotate object using `Rectangle Tool`
-3. Select object, choose `TransT object tracking (CVPR2021)` from tracking menu 
-4. Click `track` button
-
-<table>
-  <tr style="width: 100%">
-    <td>
-      <img src="https://imgur.com/4SKQyrD.png" />
-    </td>
-    <td>
-      <img src="https://imgur.com/KWsubjO.png" />
-    </td>
-  </tr>
-  <tr style="width: 100%">
-    <td>
-      <img src="https://imgur.com/uvRFFJU.png" />
-    </td>
-    <td>
-      <img src="https://imgur.com/fvGTEry.png" />
-    </td>
-  </tr>
-</table>
+# How to run
 
 
-## Agent edition
+### ⚠️ note  
+ * The application may already be launched by the instance administrator (**Enterprise**) or the Supervisely command (**Community**), but it may not work correctly due to high load.
+ * (Enterprise only) You can share started application to whole instance using **share** button from **apps** menu.
+
+---
 
 1. Add [TransT object tracking (CVPR2021)](https://ecosystem.supervise.ly/apps/supervisely-ecosystem/trans-t/supervisely/serve) from Ecosystem
-2. Run app on agent with `GPU`
-3. Use in `Videos Annotator` by analogy with <a href="#Community-edition">Community edition</a>  
+
+<img data-key="sly-module-link" data-module-slug="supervisely-ecosystem/trans-t/supervisely/serve" src="https://imgur.com/huFAU48.png" width="600px" style='padding-bottom: 20px'/>  
+
+
+2. Run app from **Plugins & Apps** page:
+
+<img src="https://imgur.com/LHbMGZ4.png" width="100%"/>
+
+
+3. Run app on agent with `GPU`
+
+<img src="https://imgur.com/VC6Kf5y.png" width="100%"/>  
+
+4. The model has been successfully deployed
+
+<img src="https://imgur.com/KH0dMUB.png" width="100%"/>  
+
+5. Use in `Videos Annotator` 
+
+<img src="https://imgur.com/VzWfVRK.png" width="100%"/>  
+
 
 
 ## How to use
