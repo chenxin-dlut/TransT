@@ -7,8 +7,8 @@ state-of-the art interactive object tracking (CVPR2021) integrated into Supervis
 ---
 
 <p float="left">
-  <img src="https://github.com/supervisely-ecosystem/trans-t/blob/main/supervisely/demo/demo1.gif?raw=true" style="width:49%;"/>
-  <img src="https://github.com/supervisely-ecosystem/trans-t/blob/main/supervisely/demo/demo2.gif?raw=true" style="width:49%;"/>
+  <img src="https://github.com/supervisely-ecosystem/trans-t/releases/download/v0.0.1/demo1.gif?raw=true" style="width:49%;"/>
+  <img src="https://github.com/supervisely-ecosystem/trans-t/releases/download/v0.0.1/demo2.gif?raw=true" style="width:49%;"/>
 </p>
 
 <p align="center">
