@@ -100,6 +100,19 @@ After the Feature Fusion Network, the feature maps are fed into the predicted he
 3. Use in `Videos Annotator` by analogy with <a href="#Community-edition">Community edition</a>  
 
 
+## How to use
+
+
+<table>
+  <tr style="width: 100%">
+    <td>
+      <a data-key="sly-embeded-video-link" href="https://youtu.be/EMvqTFu1ILE" data-video-code="EMvqTFu1ILE">     <img src="https://imgur.com/a19csV9.jpg" alt="SLY_EMBEDED_VIDEO_LINK"  style="width:100%;"> </a>
+    </td>
+    <td>
+      <a data-key="sly-embeded-video-link" href="https://youtu.be/Xa6WeIgw_mI" data-video-code="Xa6WeIgw_mI">     <img src="https://imgur.com/n2P5qSL.jpg" alt="SLY_EMBEDED_VIDEO_LINK"  style="max-width:100%;"> </a> 
+    </td>
+  </tr>
+</table>
 
 
 ## Controls:
