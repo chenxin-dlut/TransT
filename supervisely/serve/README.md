@@ -101,6 +101,19 @@ After the Feature Fusion Network, the feature maps are fed into the predicted he
 
 
 
+
+## Controls:
+
+| Key                                                           | Description                               |
+| ------------------------------------------------------------- | ------------------------------------------|
+| <kbd>Ctrl + Space</kbd>                                       | Complete annotating object                |
+| <kbd>Space</kbd>                                              | Complete annotating figure                |
+| <kbd>Shift + T</kbd>                                          | Track selected     |
+| <kbd>Shift + Enter</kbd>                                      | Play Segment     |
+
+
+
+
 # Demo
 
 We have prepared a videos and demonstrated how TransT works on the following domains:
