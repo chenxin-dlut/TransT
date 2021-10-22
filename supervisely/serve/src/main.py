@@ -5,6 +5,8 @@ import supervisely_lib as sly
 
 from tracker import TrackerContainer
 
+import torch
+
 
 def send_error_data(func):
     @functools.wraps(func)
@@ -36,13 +38,17 @@ def track(api: sly.Api, task_id, context, state, app_logger):
 
 
 def main():
-    sly.logger.info("🟩 Model has been successfully deployed")
     
-    sly.logger.info("Script arguments", extra={
-        "context.teamId": g.team_id,
-        "context.workspaceId": g.workspace_id
-    })
-    g.my_app.run()
+    if torch.cuda.is_available():    
+        sly.logger.info("🟩 Model has been successfully deployed")
+
+        sly.logger.info("Script arguments", extra={
+            "context.teamId": g.team_id,
+            "context.workspaceId": g.workspace_id
+        })
+        g.my_app.run()
+    else:
+        sly.logger.info("🟥 GPU is not available, please run on agent with GPU and CUDA!")
 
 
 if __name__ == "__main__":
