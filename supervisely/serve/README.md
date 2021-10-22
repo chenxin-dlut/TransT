@@ -69,9 +69,9 @@ After the Feature Fusion Network, the feature maps are fed into the predicted he
 # How to run
 
 
-### ⚠️ note  
- * The application may already be launched by the instance administrator (**Enterprise**) or the Supervisely command (**Community**), but it may not work correctly due to high load.
- * (Enterprise only) You can share started application to whole instance using **share** button from **apps** menu.
+### ⚠️ Notice  
+ * The application may already be launched by the instance administrator (**Enterprise**) or the Supervisely team (**Community**). If the app is not available in dropdown menu in Videos Labeling tool, please contact us. If the TransT responds slowly, please run additional application sessions in your team.
+ * **Enterprise only**: You can share started application with all users on your instance using **share** button in front of running session. We recommend to run multiple sessions if large number of users are using TransT simultaneously.
 
 ---
 
