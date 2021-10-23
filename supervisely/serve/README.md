@@ -114,7 +114,7 @@ After the Feature Fusion Network, the feature maps are fed into the predicted he
 </table>
 
 
-## Controls:
+## Controls
 
 | Key                                                           | Description                               |
 | ------------------------------------------------------------- | ------------------------------------------|
