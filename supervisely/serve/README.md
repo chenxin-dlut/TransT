@@ -118,6 +118,7 @@ After the Feature Fusion Network, the feature maps are fed into the predicted he
 
 | Key                                                           | Description                               |
 | ------------------------------------------------------------- | ------------------------------------------|
+| <kbd>5</kbd>                                       | Rectangle Tool                |
 | <kbd>Ctrl + Space</kbd>                                       | Complete Annotating Object                |
 | <kbd>Space</kbd>                                              | Complete Annotating Figure                |
 | <kbd>Shift + T</kbd>                                          | Track Selected     |
