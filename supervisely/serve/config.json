@@ -16,6 +16,7 @@
   "headless": true,
   "need_gpu": true,
   "instance_version": "6.4.29",
+  "restart_policy": "on_error",
   "session_tags": [
     "sly_video_tracking"
   ]
