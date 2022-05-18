@@ -15,6 +15,8 @@ def send_error_data(func):
         try:
             value = func(*args, **kwargs)
         except Exception as e:
+            if torch.cuda.is_available():
+                torch.cuda.empty_cache()
             request_id = kwargs["context"]["request_id"]
             g.my_app.send_response(request_id, data={"error": repr(e)})
         return value
@@ -35,6 +37,8 @@ def get_session_info(api: sly.Api, task_id, context, state, app_logger):
 def track(api: sly.Api, task_id, context, state, app_logger):
     tracker = TrackerContainer(context, api)
     tracker.track()
+    if torch.cuda.is_available():
+        torch.cuda.empty_cache()
 
 
 def main():
