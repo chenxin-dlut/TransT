@@ -2,13 +2,14 @@
   "name": " TransT object tracking (CVPR2021)",
   "type": "app",
   "categories": [
-    "tracking",
-    "video"
+    "neural network",
+    "videos",
+    "detection & tracking",
+    "serve"
   ],
   "description": "serve and use in videos annotator",
   "docker_image": "supervisely/trans-t:1.0.1",
   "main_script": "supervisely/serve/src/main.py",
-
   "task_location": "application_sessions",
   "icon": "https://imgur.com/lc4jipY.png",
   "icon_cover": true,
