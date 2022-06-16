@@ -20,5 +20,6 @@
   "restart_policy": "on_error",
   "session_tags": [
     "sly_video_tracking"
-  ]
+  ],
+  "community_agent": false
 }
