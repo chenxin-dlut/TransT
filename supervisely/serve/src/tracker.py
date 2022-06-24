@@ -51,6 +51,16 @@ class TrackerContainer:
         all_geometries = self.geometries.copy()
 
         for single_figure, single_object, single_geometry in zip(all_figures, all_objects, all_geometries):
+            if single_geometry.geometry_name() != 'rectangle':
+                current_progress += len(self.frames_indexes)
+
+                self.api.video.notify_progress(self.track_id, self.video_id,
+                                               min(self.frames_indexes),
+                                               max(self.frames_indexes),
+                                               current_progress,
+                                               len(self.frames_indexes) * len(all_figures))
+                continue
+
             figure_ids = [single_figure]
             object_ids = [single_object]
             geometries = [single_geometry]
