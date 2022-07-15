@@ -50,7 +50,7 @@ RUN pip install -r /trans-t/requirements.txt
 
 
 RUN mkdir /trans-t/data/model/
-RUN cd /trans-t/data/model/ && wget --no-check-certificate 'https://drive.google.com/uc?id=1uxnvaKdTtYj-IgmrYwi2hCD5ZddTK2d8&export=download' -O transt.pth
+RUN cd /trans-t/data/model/ && wget --no-check-certificate 'https://github.com/supervisely-ecosystem/trans-t/releases/download/v1.0.6/transt.pth' -O transt.pth
 
 RUN mv /trans-t/ /root/trans-t/
 
