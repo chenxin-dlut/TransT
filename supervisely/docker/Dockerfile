@@ -42,7 +42,7 @@ RUN pip install torch==1.7.0+cu110 torchvision==0.8.1+cu110 torchaudio==0.7.0 -f
 # Install trans-t packages
 
 
-RUN apt-get install libturbojpeg libgl1
+RUN apt-get install -y libturbojpeg libgl1
 
 RUN git clone https://github.com/supervisely-ecosystem/trans-t.git /trans-t
 RUN pip install -r /trans-t/requirements.txt
