@@ -8,7 +8,7 @@
     "serve"
   ],
   "description": "serve and use in videos annotator",
-  "docker_image": "supervisely/trans-t:1.0.1",
+  "docker_image": "supervisely/trans-t:1.0.3",
   "main_script": "supervisely/serve/src/main.py",
   "task_location": "application_sessions",
   "icon": "https://imgur.com/lc4jipY.png",

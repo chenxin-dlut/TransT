@@ -1,19 +1,10 @@
 import os
 import sys
 import pathlib
-import supervisely_lib as sly
-from dotenv import load_dotenv  # pip install python-dotenv\
+import supervisely as sly
+# from dotenv import load_dotenv  # pip install python-dotenv\
 
 logger = sly.logger
-
-load_dotenv("/root/trans-t/supervisely/serve/debug.env")
-load_dotenv("/root/trans-t/supervisely/serve/secret_debug.env", override=True)
-
-my_app = sly.AppService()
-api = my_app.public_api
-task_id = my_app.task_id
-
-sly.fs.clean_dir(my_app.data_dir)  # @TODO: for debug
 
 root_source_path = str(pathlib.Path(os.path.abspath(sys.argv[0])).parents[1])
 sly.logger.info(f"Root source directory: {root_source_path}")
@@ -24,6 +15,15 @@ sys.path.append(transt_root_path)
 
 pysot_toolkit_path = str(pathlib.Path(os.path.join(transt_root_path, 'pysot_toolkit')))
 sys.path.append(pysot_toolkit_path)
+
+# load_dotenv(os.path.join(transt_root_path, "supervisely/serve/debug.env"))
+# load_dotenv(os.path.join(transt_root_path, "supervisely/serve/secret_debug.env"), override=True)
+
+my_app = sly.AppService()
+api = my_app.public_api
+task_id = my_app.task_id
+
+sly.fs.clean_dir(my_app.data_dir)  # @TODO: for debug
 
 team_id = int(os.environ['context.teamId'])
 workspace_id = int(os.environ['context.workspaceId'])

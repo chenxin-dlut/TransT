@@ -1,7 +1,7 @@
 import functools
 
 import sly_globals as g
-import supervisely_lib as sly
+import supervisely as sly
 
 from tracker import TrackerContainer
 
@@ -33,10 +33,15 @@ def get_session_info(api: sly.Api, task_id, context, state, app_logger):
 
 @g.my_app.callback("track")
 @sly.timeit
-# @send_error_data
 def track(api: sly.Api, task_id, context, state, app_logger):
-    tracker = TrackerContainer(context, api)
-    tracker.track()
+    try:
+        tracker = TrackerContainer(context, api)
+        tracker.track()
+    except Exception as e:    
+        sly.logger.warning(repr(e), extra = {'video_id': context['videoId'], 'track_id': context['trackId'],
+            'frame_idx': context['frameIndex'], 'direction': context['direction'], 'frames_count': context['frames']})
+        request_id = context["request_id"]
+        g.my_app.send_response(request_id, data={"error": repr(e)})
     if torch.cuda.is_available():
         torch.cuda.empty_cache()
 
