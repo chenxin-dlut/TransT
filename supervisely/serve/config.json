@@ -21,5 +21,8 @@
   "session_tags": [
     "sly_video_tracking"
   ],
-  "community_agent": false
+  "community_agent": false,
+  "license": {
+    "type": "GPL-3.0" 
+  }
 }
