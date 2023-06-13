@@ -110,7 +110,7 @@ class TrackerContainer:
                             frame_start = None
                             if need_stop:
                                 g.logger.debug('Tracking was stopped', extra={'track_id': self.track_id})
-                                break
+                                return
                 g.logger.info(f'Process frame {enumerate_frame_index} — {frame_index}')
         g.logger.info(f'Tracking completed')
 
