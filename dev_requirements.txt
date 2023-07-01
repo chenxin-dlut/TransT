@@ -1,4 +1,4 @@
-supervisely==6.35.0
+supervisely==6.72.55
 matplotlib==3.4.2
 pandas==1.4.2
 tqdm==4.62.3
